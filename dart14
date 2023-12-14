@@ -1,0 +1,8 @@
+String describePerson(String name, [int age = 25]) {
+  return 'Name: $name, Age: $age';
+}
+
+void main() {
+  print(describePerson('Alice')); // Providing only name
+  print(describePerson('Bob', 30)); // Providing both name and age
+}

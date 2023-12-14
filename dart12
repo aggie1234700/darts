@@ -1,0 +1,7 @@
+void greet() {
+  print('Hello! Welcome to Dart Functions.');
+}
+
+void main() {
+  greet(); // Calling the function
+}

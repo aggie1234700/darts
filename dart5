@@ -1,0 +1,25 @@
+void main() {
+  // Two variables
+  int a = 10;
+  double b = 4.0;
+
+  // Addition
+  double sum = a + b;
+  print('Sum: $sum');
+
+  // Subtraction
+  double difference = a - b;
+  print('Difference: $difference');
+
+  // Multiplication
+  double product = a * b;
+  print('Product: $product');
+
+  // Division
+  double quotient = a / b;
+  print('Quotient: $quotient');
+
+  // Modulus
+  double modulusResult = a % b;
+  print('Modulus Result: $modulusResult');
+}
